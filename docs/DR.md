@@ -1,9 +1,23 @@
-# **Documento de Requisitos de Software (DRS)**
+# Documento de Requisitos de Software (DRS)
 
-## Sistema: Site Institucional – Escritório de Advocacia
+**Sistema:** Site Institucional – Escritório de Advocacia
 **Cliente:** Marcelo Patrício
 **Empresa Desenvolvedora:** Emcomp
 **Data:** 16/07/2025
+
+---
+
+## Sumário
+
+1.  Introdução
+2.  Escopo do Sistema
+3.  Objetivos
+4.  Atores do Sistema
+5.  Requisitos Funcionais
+6.  Requisitos Não Funcionais
+7.  Restrições
+8.  Critérios de Aceitação
+9.  Considerações Finais
 
 ---
 
@@ -87,5 +101,5 @@ Este documento representa os requisitos iniciais acordados entre o cliente e a e
 
 ---
 
-**Documento elaborado por:** [Igor Xisto Ferreira]
-**Data de revisão:** [16/072025]
+**Documento elaborado por:** Igor Xisto Ferreira
+**Data de revisão:** 16/07/2025
