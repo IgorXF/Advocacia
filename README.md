@@ -56,7 +56,7 @@ Siga estas instruções para configurar e rodar o projeto em seu ambiente de des
 ### Instalação
 
 1.  Clone o repositório:
-    `git clone https://github.com/seu-usuario/Advocacia.git`
+    `git clone https://github.com/IgorXF/Advocacia`
 
 2.  Navegue até o diretório do projeto:
     `cd Advocacia`
