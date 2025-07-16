@@ -1,41 +1,43 @@
-# Site Institucional – Escritório de Advocacia
+# ⚖️ Site Institucional – Advocacia
 
-Este é o repositório para o desenvolvimento do site institucional de um escritório de advocacia, construído com React e Next.js. O projeto visa oferecer uma plataforma informativa, moderna, performática e de fácil gerenciamento.
+**Status:** Em Desenvolvimento | **Framework:** Next.js | **Linguagem:** JavaScript
 
----
-
-## Índice
-
-* Visão Geral do Projeto
-* Funcionalidades
-* Tecnologias Utilizadas
-* Começando
-    * Pré-requisitos
-    * Instalação
-    * Variáveis de Ambiente
-* Rodando a Aplicação
-* Estrutura de Pastas
-* Scripts Disponíveis
-* Deploy
+Este é o repositório para o desenvolvimento do site institucional de um escritório de advocacia. O projeto visa oferecer uma plataforma informativa, moderna, performática e de fácil gerenciamento, construída com as tecnologias mais atuais do ecossistema React.
 
 ---
 
-## Visão Geral do Projeto
+## 📋 Índice
+
+* [📖 Visão Geral do Projeto](#-visão-geral-do-projeto)
+* [✨ Funcionalidades](#-funcionalidades)
+* [🛠️ Tecnologias Utilizadas](#-tecnologias-utilizadas)
+* [🚀 Começando](#-começando)
+    * [Pré-requisitos](#pré-requisitos)
+    * [Instalação](#instalação)
+    * [Variáveis de Ambiente](#variáveis-de-ambiente)
+* [▶️ Rodando a Aplicação](#️-rodando-a-aplicação)
+* [📁 Estrutura de Pastas](#-estrutura-de-pastas)
+* [📜 Scripts Disponíveis](#-scripts-disponíveis)
+* [☁️ Deploy](#️-deploy)
+
+---
+
+## 📖 Visão Geral do Projeto
 
 O sistema tem como objetivo principal fortalecer a presença online do escritório, apresentando seus serviços, equipe e valores de forma profissional. Além do site público, o projeto inclui um painel administrativo para que a equipe interna possa gerenciar o conteúdo dinâmico (como artigos do blog e perfis de advogados) de forma autônoma.
 
-## Funcionalidades
+## ✨ Funcionalidades
 
 * **Páginas Institucionais:** Home, Sobre Nós, Áreas de Atuação e Contato.
 * **Equipe de Profissionais:** Página com listagem e perfil individual para cada advogado.
 * **Blog Jurídico:** Área para publicação de artigos com sistema de filtros por categoria e data.
 * **Formulário de Contato:** Com validação, proteção anti-spam (reCAPTCHA) e envio de e-mail.
-* **Painel de Administração:** Área restrita para gerenciar todo o conteúdo dinâmico do site (CRUDs de Artigos, Advogados, Áreas de Atuação).
+* **Painel de Administração:** Área restrita para gerenciar todo o conteúdo dinâmico do site.
 * **Design Responsivo:** Interface totalmente adaptável para desktops, tablets e smartphones.
-* **SEO Otimizado:** URLs amigáveis, meta tags dinâmicas e boas práticas para melhor indexação no Google.
-* **Alta Performance:** Otimização de imagens e carregamento rápido das páginas (Server-Side Rendering e Static Site Generation com Next.js).
+* **SEO Otimizado:** URLs amigáveis, meta tags dinâmicas e boas práticas para melhor indexação.
+* **Alta Performance:** Otimização de imagens e carregamento rápido com Next.js.
 
-## Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 * **Framework:** Next.js
 * **Biblioteca UI:** React.js
@@ -44,7 +46,7 @@ O sistema tem como objetivo principal fortalecer a presença online do escritór
 * **Linting:** ESLint
 * **Formatação de Código:** Prettier
 
-## Começando
+## 🚀 Começando
 
 Siga estas instruções para configurar e rodar o projeto em seu ambiente de desenvolvimento local.
 
@@ -56,7 +58,7 @@ Siga estas instruções para configurar e rodar o projeto em seu ambiente de des
 ### Instalação
 
 1.  Clone o repositório:
-    `git clone https://github.com/IgorXF/Advocacia`
+    `git clone https://github.com/IgorXF/Advocacia.git`
 
 2.  Navegue até o diretório do projeto:
     `cd Advocacia`
@@ -67,7 +69,7 @@ Siga estas instruções para configurar e rodar o projeto em seu ambiente de des
 
 ### Variáveis de Ambiente
 
-Para que a aplicação funcione corretamente, especialmente o painel administrativo e o formulário de contato, é necessário configurar as variáveis de ambiente.
+Para que a aplicação funcione corretamente, é necessário configurar as variáveis de ambiente.
 
 1.  Crie uma cópia do arquivo de exemplo `.env.example`:
     `cp .env.example .env.local`
@@ -96,7 +98,7 @@ Para que a aplicação funcione corretamente, especialmente o painel administrat
     `NEXTAUTH_URL=http://localhost:3000`
     `NEXTAUTH_SECRET=seu_secret_super_secreto`
 
-## Rodando a Aplicação
+## ▶️ Rodando a Aplicação
 
 Para iniciar o servidor de desenvolvimento, execute:
 `npm run dev`
@@ -104,23 +106,23 @@ Para iniciar o servidor de desenvolvimento, execute:
 
 Abra http://localhost:3000 em seu navegador para ver o resultado.
 
-## Estrutura de Pastas
+## 📁 Estrutura de Pastas
 
 A estrutura de pastas segue o padrão do Next.js:
 
     .
+    ├── /components/
     ├── /pages/
     │   ├── /api/
     │   ├── _app.js
     │   └── index.js
-    ├── /components/
     ├── /public/
     ├── /styles/
     ├── .env.local
     ├── next.config.js
     └── package.json
 
-## Scripts Disponíveis
+## 📜 Scripts Disponíveis
 
 No diretório do projeto, você pode executar:
 
@@ -129,7 +131,7 @@ No diretório do projeto, você pode executar:
 * `npm run start`: Inicia um servidor de produção (requer `npm run build` antes).
 * `npm run lint`: Executa o ESLint para encontrar problemas no código.
 
-## Deploy
+## ☁️ Deploy
 
 A forma mais recomendada para fazer o deploy de uma aplicação Next.js é através da Vercel, a plataforma criada pelos mantenedores do Next.js. Ela oferece integração contínua e deploy automáticos a cada `git push` para a branch principal.
 
