@@ -1,9 +1,11 @@
 # Documento de Requisitos de Software (DRS)
 
-**Sistema:** Site Institucional – Escritório de Advocacia
-**Cliente:** Marcelo Patrício
-**Empresa Desenvolvedora:** Emcomp
-**Data:** 16/07/2025
+| |
+| :--- |
+| **Sistema:** Site Institucional – Escritório de Advocacia |
+| **Cliente:** Marcelo Patrício |
+| **Empresa Desenvolvedora:** Emcomp |
+| **Data:** 16/07/2025 |
 
 ---
 
